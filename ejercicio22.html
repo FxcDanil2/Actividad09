@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades CSS</title>
+    <style>
+        .ejemplo {
+            margin: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        /* Ejemplo de border-top */
+        .border-top-ejemplo {
+            border-top: 3px solid #ff0000;
+        }
+
+        /* Ejemplo de border-bottom */
+        .border-bottom-ejemplo {
+            border-bottom: 3px dashed #0000ff;
+        }
+
+        /* Ejemplo de margin */
+        .margin-ejemplo {
+            margin: 20px 10px 30px 15px; /* arriba derecha abajo izquierda */
+            background-color: #ffeb3b;
+        }
+
+        /* Ejemplo de padding */
+        .padding-ejemplo {
+            padding: 20px;
+            background-color: #4caf50;
+            color: white;
+        }
+
+        /* Ejemplo de vertical-align */
+        .vertical-align-ejemplo {
+            vertical-align: super;
+            font-size: 0.8em;
+        }
+
+        /* Ejemplo de text-indent */
+        .text-indent-ejemplo {
+            text-indent: 50px;
+            background-color: #e1f5fe;
+        }
+
+        /* Ejemplo de text-wrap */
+        .text-wrap-ejemplo {
+            width: 200px;
+            text-wrap: wrap;
+            background-color: #fff3e0;
+        }
+
+        /* Ejemplo de text-stroke */
+        .text-stroke-ejemplo {
+            -webkit-text-stroke: 2px red;
+            font-size: 36px;
+            color: yellow;
+        }
+
+        /* Contenedor para la tabla */
+        .table-container {
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ejemplo">
+        <h1>Ejemplos de Propiedades CSS</h1>
+
+        <h2>1. Border-top</h2>
+        <p class="border-top-ejemplo">Este párrafo tiene un borde superior rojo sólido de 3px.</p>
+
+        <h2>2. Border-bottom</h2>
+        <p class="border-bottom-ejemplo">Este párrafo tiene un borde inferior azul punteado de 3px.</p>
+
+        <h2>3. Margin</h2>
+        <div class="margin-ejemplo">
+            Este div tiene márgenes diferentes en cada lado (20px arriba, 10px derecha, 30px abajo, 15px izquierda).
+        </div>
+
+        <h2>4. Padding</h2>
+        <div class="padding-ejemplo">
+            Este div tiene un relleno (padding) de 20px en todos los lados.
+        </div>
+
+        <h2>5. Vertical-align</h2>
+        <p>Texto normal con un <span class="vertical-align-ejemplo">texto elevado</span> usando vertical-align.</p>
+
+        <h2>6. Text-indent</h2>
+        <p class="text-indent-ejemplo">
+            Este párrafo tiene una sangría de primera línea de 50px. El texto comienza más adentro que el resto del contenido.
+        </p>
+
+        <h2>7. Text-wrap</h2>
+        <div class="text-wrap-ejemplo">
+            Este es un ejemplo de cómo el texto se ajusta dentro de un contenedor con ancho limitado usando text-wrap.
+        </div>
+
+        <h2>8. Text-stroke</h2>
+        <p class="text-stroke-ejemplo">Texto con contorno</p>
+    </div>
+
+    <div class="table-container">
+        <h2>Resumen de Propiedades</h2>
+        <table>
+            <tr>
+                <td><strong>Propiedad</strong></td>
+                <td><strong>Descripción</strong></td>
+            </tr>
+            <tr>
+                <td>border-top</td>
+                <td>Define el borde superior de un elemento</td>
+            </tr>
+            <tr>
+                <td>border-bottom</td>
+                <td>Define el borde inferior de un elemento</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Define el espacio exterior alrededor de un elemento</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>Define el espacio interior dentro de un elemento</td>
+            </tr>
+            <tr>
+                <td>vertical-align</td>
+                <td>Alinea elementos verticalmente respecto a su línea base</td>
+            </tr>
+            <tr>
+                <td>text-indent</td>
+                <td>Define la sangría de la primera línea de texto</td>
+            </tr>
+            <tr>
+                <td>text-wrap</td>
+                <td>Controla cómo se ajusta el texto dentro de su contenedor</td>
+            </tr>
+            <tr>
+                <td>text-stroke</td>
+                <td>Define el contorno del texto (requiere prefijo -webkit-)</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
